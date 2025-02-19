@@ -32,19 +32,7 @@ To build the project:
 ```sh
 make
 ```
-Or manually:
-```sh
-gcc -o parallel_firewall src/*.c -lpthread
-```
 
-### Running the Firewall
-```sh
-./parallel_firewall [num_producers] [num_consumers] [buffer_size]
-```
-Example:
-```sh
-./parallel_firewall 4 4 128
-```
 This starts the firewall with **4 producer threads**, **4 consumer threads**, and a **circular buffer of size 128**.
 
 ## Why Use This Parallel Firewall?
