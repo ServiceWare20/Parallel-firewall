@@ -42,12 +42,3 @@ This starts the firewall with **4 producer threads**, **4 consumer threads**, an
 - 🔒 **Thread-safe design** using `mutex` and `condition variables`.
 - 📈 **Improves throughput** in high-load network scenarios.
 
-## Future Enhancements
-
-- Implement dynamic load balancing.
-- Support for additional filtering criteria.
-- Performance benchmarking and optimization.
-
-## License
-
-This project is licensed under the **MIT License** – feel free to use and modify it!
